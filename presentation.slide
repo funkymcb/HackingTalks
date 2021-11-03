@@ -1,0 +1,94 @@
+Hacking101 #1: XSS, SQLI, XSRF
+November 4th 2021
+
+Yannick Peter
+yannick.peter@fino.digital
+
+* Contents
+.html html/contents.html
+
+* Section 2: Sources
+* Section 2: Sources
+.html html/sources.html
+
+* Section 2: Sources
+- Todays Box: *Bankrobber* (HtB)
+.image pics/br_info.png 400 550
+
+* Section 3: Requirements
+* Section 3: Requirements
+- Black Hoodie
+.image pics/hoodie.jpeg 500 400
+
+* Section 3: Requirements
+Linux Machine with:
+- Kali-Linux
+- ParrotOS
+- BlackArch
+- o.e.
+
+* Section 3: Requirements
+- Hacker Stickers (at least 1 Mr.Robot reference)
+.image pics/stickers.jpeg 450 650
+
+* Section 3: Requirements
+- Green Terminal
+.image pics/terminal.png 450 650
+
+* Section 3: Requirements
+Just Kidding
+- Use whatever you like (except windows)
+
+* Section 4: MITRE Recap
+
+* Section 4: MITRE Recap
+.html html/mitre/mitre-goal.html
+
+*
+.html html/mitre/mitre-goal2.html
+
+* Section 5: Live Hacking
+
+* Different Kinds of XSS
+.html html/xss/reflected-xss.html
+
+* How to prevent Reflected XSS
+.play code/reflected-xss.go /START OMIT/,/END OMIT/
+
+* Different Kinds of XSS
+.html html/xss/blind-xss.html
+
+* Possible Scripts for blind XSS
+.html html/xss/patt-blind-xss.html
+
+* How to prevent XSS in general
+- ALL User Data is untrusted!
+- NEVER put untrusted Data in HTML Document
+- if REALLY needed, HTML/Js/CSS Encode Data before
+- Quote untrusted Data in HTML attributes
+
+* What did they do wrong?
+.html html/xss/actual-exploit.html
+
+* SQL-Injection
+* SQL-Injection Basics
+.html html/sqli/basic-sqli.html
+
+* SQL Union Injection
+.html html/sqli/union-sqli.html
+
+* How to prevent SQL Injection:
+.html html/sqli/prevent-sqli-php.html
+
+* How to prevent SQL Injection:
+.html html/sqli/prevent-sqli-go.html
+
+* Cross Site Request Forgery
+* Cross Site Request Forgery
+.image pics/csrf.svg 600 800
+
+* MITRE prospect
+.html html/mitre/mitre-prosp.html
+
+*
+.html html/mitre/mitre-prosp2.html
