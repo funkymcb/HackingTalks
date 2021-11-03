@@ -61,14 +61,11 @@ Just Kidding
 * Possible Scripts for blind XSS
 .html html/xss/patt-blind-xss.html
 
-* How to prevent XSS in general
-- ALL User Data is untrusted!
-- NEVER put untrusted Data in HTML Document
-- if REALLY needed, HTML/Js/CSS Encode Data before
-- Quote untrusted Data in HTML attributes
-
 * What did they do wrong?
 .html html/xss/actual-exploit.html
+
+* How to prevent XSS in general
+.html html/xss/prevent-xss.html
 
 * SQL-Injection
 * SQL-Injection Basics
@@ -83,12 +80,19 @@ Just Kidding
 * How to prevent SQL Injection:
 .html html/sqli/prevent-sqli-go.html
 
-* Cross Site Request Forgery
-* Cross Site Request Forgery
+* What's that weird backdoorchecker???
+* backdoorchecker.php Attack
 .image pics/csrf.svg 600 800
+
+* Cross Site Request Forgery
+* What is happening?
+- TODO
 
 * MITRE prospect
 .html html/mitre/mitre-prosp.html
 
 *
 .html html/mitre/mitre-prosp2.html
+
+* Sources
+.html html/links.html
